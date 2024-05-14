@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My landing-page</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <header class="container header">
+      <nav class="nav">
+        <div class="logo">
+          <h2>Mom's Oven.</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">log in</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">about us</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">service</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">contact us</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Welcome to <span>Mom's Oven</span>
+              <br /><i>
+              "From our oven to your heart, baked with care."</i>
+            </h1>
+            <p class="info-text">
+              Taking Your Sweet Vision to Dough
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                Track your orders <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">Add to cart</button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="team.jpg" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+            </div>
+            <div class="featured_info">
+              <span class="title"><i>Cake Shop </span></i>
+              <p>
+               <i> All our cakes are baked using only the finest ingredients. The freshest flavors and tastes are captured in every slice of cake from The Cake Shop. We add new items to our menu continually, so visit us often!
+              </i>
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+            </div>
+            <div class="featured_info">
+              <span class="title"><i>Taste the Difference</i></span>
+              <p>
+                <i>Do you compromise when it comes to celebrate the memorable moments in your life? We know you don't, that's why every single cake at cake shop is Freshly baked to order. savour the taste of freshness". The taste of freshness is discernible and hard to beat. When you can get fresh, why opt for another.</i>
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+            </div>
+            <div class="featured_info">
+              <span class="title"><i>Order/Pickup Delivery</i></span>
+              <p>
+                <i>You are welcome to pick up your cake or get it delivered to the venue of your choice.</i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="script.js" defer></script>
+    <footer>
+      <p>&copy; Copyright 2024 Mom's Oven</p>
+    </footer>
+  </body>
+</html>
